@@ -1,6 +1,6 @@
-This is a demo TestCase form Wahlstroem Engineering GmbH, featuring an address book.
+This is a demo project featuring an Address book.
 
-Content:
+Technical content:
 
 - a basic MVC model
 - a basic router
@@ -9,3 +9,17 @@ Content:
 - Bootstrap CSS from CDN
 - jQuery from CDN
 - Composer (also for autoloding self made namespaces)
+
+Features:
+
+- Contact page:
+  + Create, modify, delete contacts
+  + Add a contact to a Group
+  + Add multiple comma separated tags to a contact
+  + Filter contacts by tags
+  + Export contact list in XML and JSON format
+- Group page:
+  + Create, modify, delete groups
+  + Inherit contacts from a child group and from all its descendants
+  + Eliminate duplicate contacts, keeping only the inherited ones
+  + List contacts of a group (inherited and own)
